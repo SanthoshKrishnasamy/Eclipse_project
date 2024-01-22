@@ -33,13 +33,13 @@ public class Day_7_locaters {
 		WebElement password = driver.findElement(By.name("session_password"));
 		password.sendKeys("Santhoshkrishnan@12");
 
-		/*// By using this method "className" we can interact with the "Webelement"
+		// By using this method "className" we can interact with the "Webelement"
 		WebElement signIn = driver.findElement(By.className("login__form_action_container"));
 		signIn.click();
 		
 		// By using this method "tagName" we can interact with the "Webelement"
 		WebElement joinnow = driver.findElement(By.tagName("a")); 
-		joinnow.click();*/
+		joinnow.click();
 		
 		driver.quit();
 
