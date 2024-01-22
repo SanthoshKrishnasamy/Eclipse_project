@@ -37,6 +37,8 @@ public class Day_10_Locaters {
 		WebElement sign_in = driver.findElement(By.cssSelector(".login__form_action_container "));
 		sign_in .click();
 		
+		driver.quit();
+		
 	}
 
 }

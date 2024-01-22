@@ -35,6 +35,8 @@ public class Day_11_Webelement_interaction_1 {
 		
 		ShowAndHide.click();
 		
+		driver.quit();
+		
 	}
 
 }
