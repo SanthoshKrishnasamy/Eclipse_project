@@ -5,8 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Day_7_Locaters_2 {
-
+public class Day_7_locaters {
+	
 	public static void main(String[] args) {
 
 		WebDriver driver = new FirefoxDriver();
@@ -16,29 +16,31 @@ public class Day_7_Locaters_2 {
 		driver.manage().window().maximize();
 
 		driver.get("https://www.linkedin.com/login");
-
+		
+	/*	Here we are deeling with the locaters know as " id , name, className, tagName "*/
+		
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+
 		// By using this method "Id" we can interact with the "Webelement"
-		WebElement joinnow3 = driver.findElement(By.id("join_now"));
-		joinnow3.click();
+		WebElement username = driver.findElement(By.id("username"));
+		username.sendKeys("look4santhoshkrishnan@gmail.com");
 
 		// By using this method "name" we can interact with the "Webelement"
 		WebElement password = driver.findElement(By.name("session_password"));
-		password.sendKeys("SANTHOSH");
+		password.sendKeys("Santhoshkrishnan@12");
 
-		// By using this method "tagName" we can interact with the "Webelement"
-		WebElement tagname = driver.findElement(By.tagName("a")); 
-		tagname.click();
-		
-		// By using this method "className" we can interact with the "Webelement"
+		/*// By using this method "className" we can interact with the "Webelement"
 		WebElement signIn = driver.findElement(By.className("login__form_action_container"));
 		signIn.click();
+		
+		// By using this method "tagName" we can interact with the "Webelement"
+		WebElement joinnow = driver.findElement(By.tagName("a")); 
+		joinnow.click();*/
+		
+		driver.quit();
 
-	}
-
-}
+}}
