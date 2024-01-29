@@ -29,9 +29,9 @@ public class Day_22_drop_down {
 			dropdown.selectByValue("Florida");
 			dropdown.selectByVisibleText("New Jersey");
 		}
-		
+
 		// De-select
-		
+
 		dropdown.deselectByIndex(2);
 		dropdown.deselectByValue("Florida");
 		dropdown.deselectByVisibleText("New Jersey");
