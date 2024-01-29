@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Day_23_Alert2 {
+public class Day_24_ConfirmationAlert {
 
 	public static void main(String[] args) {
 

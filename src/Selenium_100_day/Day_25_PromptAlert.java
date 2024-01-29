@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Day_23_Alert3 {
+public class Day_25_PromptAlert {
 
 	public static void main(String[] args) {
 
