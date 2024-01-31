@@ -1,6 +1,6 @@
 package Selenium_100_day;
 
-public class Day29_Synchronization {
+public class Day_29_Synchronization {
 
 	public static void main(String[] args) {
 
