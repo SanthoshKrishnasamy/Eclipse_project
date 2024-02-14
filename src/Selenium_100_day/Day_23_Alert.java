@@ -27,9 +27,17 @@ public class Day_23_Alert {
 		// Interacting with alert and  Priting the message from that alert.
 		Alert alert = driver.switchTo().alert();
 		
+		
 		String AlertMessage = alert.getText();
 		
 		System.out.println(AlertMessage);
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
 		// Accepting the alert
 		alert.accept();
